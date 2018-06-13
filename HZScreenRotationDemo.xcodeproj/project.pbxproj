@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C7F19E20D0B811003F7AE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F19D20D0B811003F7AE1 /* AppDelegate.m */; };
+		03C7F1A420D0B811003F7AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C7F1A220D0B811003F7AE1 /* Main.storyboard */; };
+		03C7F1A720D0B811003F7AE1 /* HZScreenRotationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F1A520D0B811003F7AE1 /* HZScreenRotationDemo.xcdatamodeld */; };
+		03C7F1A920D0B811003F7AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C7F1A820D0B811003F7AE1 /* Assets.xcassets */; };
+		03C7F1AC20D0B811003F7AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C7F1AA20D0B811003F7AE1 /* LaunchScreen.storyboard */; };
+		03C7F1AF20D0B811003F7AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F1AE20D0B811003F7AE1 /* main.m */; };
+		03C7F1B920D0B811003F7AE1 /* HZScreenRotationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F1B820D0B811003F7AE1 /* HZScreenRotationDemoTests.m */; };
+		03C7F1C420D0B811003F7AE1 /* HZScreenRotationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F1C320D0B811003F7AE1 /* HZScreenRotationDemoUITests.m */; };
+		03C7F1D920D0BAB4003F7AE1 /* HZContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F1D820D0BAB4003F7AE1 /* HZContentViewController.m */; };
+		03C7F1DC20D0C54F003F7AE1 /* HZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F1DB20D0C54F003F7AE1 /* HZHomeViewController.m */; };
+		03C7F1DF20D0C82E003F7AE1 /* HZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F1DE20D0C82E003F7AE1 /* HZRootViewController.m */; };
+		03C7F1E220D0C872003F7AE1 /* HZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7F1E120D0C872003F7AE1 /* HZNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C7F1B520D0B811003F7AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C7F19120D0B811003F7AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C7F19820D0B811003F7AE1;
+			remoteInfo = HZScreenRotationDemo;
+		};
+		03C7F1C020D0B811003F7AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C7F19120D0B811003F7AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C7F19820D0B811003F7AE1;
+			remoteInfo = HZScreenRotationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C7F19920D0B811003F7AE1 /* HZScreenRotationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZScreenRotationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C7F19C20D0B811003F7AE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03C7F19D20D0B811003F7AE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03C7F1A320D0B811003F7AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C7F1A620D0B811003F7AE1 /* HZScreenRotationDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HZScreenRotationDemo.xcdatamodel; sourceTree = "<group>"; };
+		03C7F1A820D0B811003F7AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C7F1AB20D0B811003F7AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C7F1AD20D0B811003F7AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C7F1AE20D0B811003F7AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C7F1B420D0B811003F7AE1 /* HZScreenRotationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZScreenRotationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C7F1B820D0B811003F7AE1 /* HZScreenRotationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZScreenRotationDemoTests.m; sourceTree = "<group>"; };
+		03C7F1BA20D0B811003F7AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C7F1BF20D0B811003F7AE1 /* HZScreenRotationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZScreenRotationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C7F1C320D0B811003F7AE1 /* HZScreenRotationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZScreenRotationDemoUITests.m; sourceTree = "<group>"; };
+		03C7F1C520D0B811003F7AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C7F1D720D0BAB4003F7AE1 /* HZContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZContentViewController.h; sourceTree = "<group>"; };
+		03C7F1D820D0BAB4003F7AE1 /* HZContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZContentViewController.m; sourceTree = "<group>"; };
+		03C7F1DA20D0C54F003F7AE1 /* HZHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZHomeViewController.h; sourceTree = "<group>"; };
+		03C7F1DB20D0C54F003F7AE1 /* HZHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZHomeViewController.m; sourceTree = "<group>"; };
+		03C7F1DD20D0C82E003F7AE1 /* HZRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZRootViewController.h; sourceTree = "<group>"; };
+		03C7F1DE20D0C82E003F7AE1 /* HZRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRootViewController.m; sourceTree = "<group>"; };
+		03C7F1E020D0C872003F7AE1 /* HZNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZNavigationController.h; sourceTree = "<group>"; };
+		03C7F1E120D0C872003F7AE1 /* HZNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C7F19620D0B811003F7AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C7F1B120D0B811003F7AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C7F1BC20D0B811003F7AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C7F19020D0B811003F7AE1 = {
+			isa = PBXGroup;
+			children = (
+				03C7F19B20D0B811003F7AE1 /* HZScreenRotationDemo */,
+				03C7F1B720D0B811003F7AE1 /* HZScreenRotationDemoTests */,
+				03C7F1C220D0B811003F7AE1 /* HZScreenRotationDemoUITests */,
+				03C7F19A20D0B811003F7AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C7F19A20D0B811003F7AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C7F19920D0B811003F7AE1 /* HZScreenRotationDemo.app */,
+				03C7F1B420D0B811003F7AE1 /* HZScreenRotationDemoTests.xctest */,
+				03C7F1BF20D0B811003F7AE1 /* HZScreenRotationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C7F19B20D0B811003F7AE1 /* HZScreenRotationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03C7F19C20D0B811003F7AE1 /* AppDelegate.h */,
+				03C7F19D20D0B811003F7AE1 /* AppDelegate.m */,
+				03C7F1DD20D0C82E003F7AE1 /* HZRootViewController.h */,
+				03C7F1DE20D0C82E003F7AE1 /* HZRootViewController.m */,
+				03C7F1DA20D0C54F003F7AE1 /* HZHomeViewController.h */,
+				03C7F1DB20D0C54F003F7AE1 /* HZHomeViewController.m */,
+				03C7F1D720D0BAB4003F7AE1 /* HZContentViewController.h */,
+				03C7F1D820D0BAB4003F7AE1 /* HZContentViewController.m */,
+				03C7F1A220D0B811003F7AE1 /* Main.storyboard */,
+				03C7F1E020D0C872003F7AE1 /* HZNavigationController.h */,
+				03C7F1E120D0C872003F7AE1 /* HZNavigationController.m */,
+				03C7F1A820D0B811003F7AE1 /* Assets.xcassets */,
+				03C7F1AA20D0B811003F7AE1 /* LaunchScreen.storyboard */,
+				03C7F1AD20D0B811003F7AE1 /* Info.plist */,
+				03C7F1AE20D0B811003F7AE1 /* main.m */,
+				03C7F1A520D0B811003F7AE1 /* HZScreenRotationDemo.xcdatamodeld */,
+			);
+			path = HZScreenRotationDemo;
+			sourceTree = "<group>";
+		};
+		03C7F1B720D0B811003F7AE1 /* HZScreenRotationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C7F1B820D0B811003F7AE1 /* HZScreenRotationDemoTests.m */,
+				03C7F1BA20D0B811003F7AE1 /* Info.plist */,
+			);
+			path = HZScreenRotationDemoTests;
+			sourceTree = "<group>";
+		};
+		03C7F1C220D0B811003F7AE1 /* HZScreenRotationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03C7F1C320D0B811003F7AE1 /* HZScreenRotationDemoUITests.m */,
+				03C7F1C520D0B811003F7AE1 /* Info.plist */,
+			);
+			path = HZScreenRotationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C7F19820D0B811003F7AE1 /* HZScreenRotationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C7F1C820D0B811003F7AE1 /* Build configuration list for PBXNativeTarget "HZScreenRotationDemo" */;
+			buildPhases = (
+				03C7F19520D0B811003F7AE1 /* Sources */,
+				03C7F19620D0B811003F7AE1 /* Frameworks */,
+				03C7F19720D0B811003F7AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZScreenRotationDemo;
+			productName = HZScreenRotationDemo;
+			productReference = 03C7F19920D0B811003F7AE1 /* HZScreenRotationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C7F1B320D0B811003F7AE1 /* HZScreenRotationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C7F1CB20D0B811003F7AE1 /* Build configuration list for PBXNativeTarget "HZScreenRotationDemoTests" */;
+			buildPhases = (
+				03C7F1B020D0B811003F7AE1 /* Sources */,
+				03C7F1B120D0B811003F7AE1 /* Frameworks */,
+				03C7F1B220D0B811003F7AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C7F1B620D0B811003F7AE1 /* PBXTargetDependency */,
+			);
+			name = HZScreenRotationDemoTests;
+			productName = HZScreenRotationDemoTests;
+			productReference = 03C7F1B420D0B811003F7AE1 /* HZScreenRotationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03C7F1BE20D0B811003F7AE1 /* HZScreenRotationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C7F1CE20D0B811003F7AE1 /* Build configuration list for PBXNativeTarget "HZScreenRotationDemoUITests" */;
+			buildPhases = (
+				03C7F1BB20D0B811003F7AE1 /* Sources */,
+				03C7F1BC20D0B811003F7AE1 /* Frameworks */,
+				03C7F1BD20D0B811003F7AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C7F1C120D0B811003F7AE1 /* PBXTargetDependency */,
+			);
+			name = HZScreenRotationDemoUITests;
+			productName = HZScreenRotationDemoUITests;
+			productReference = 03C7F1BF20D0B811003F7AE1 /* HZScreenRotationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C7F19120D0B811003F7AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "季怀斌";
+				TargetAttributes = {
+					03C7F19820D0B811003F7AE1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					03C7F1B320D0B811003F7AE1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 03C7F19820D0B811003F7AE1;
+					};
+					03C7F1BE20D0B811003F7AE1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 03C7F19820D0B811003F7AE1;
+					};
+				};
+			};
+			buildConfigurationList = 03C7F19420D0B811003F7AE1 /* Build configuration list for PBXProject "HZScreenRotationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C7F19020D0B811003F7AE1;
+			productRefGroup = 03C7F19A20D0B811003F7AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C7F19820D0B811003F7AE1 /* HZScreenRotationDemo */,
+				03C7F1B320D0B811003F7AE1 /* HZScreenRotationDemoTests */,
+				03C7F1BE20D0B811003F7AE1 /* HZScreenRotationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C7F19720D0B811003F7AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C7F1AC20D0B811003F7AE1 /* LaunchScreen.storyboard in Resources */,
+				03C7F1A920D0B811003F7AE1 /* Assets.xcassets in Resources */,
+				03C7F1A420D0B811003F7AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C7F1B220D0B811003F7AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C7F1BD20D0B811003F7AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C7F19520D0B811003F7AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C7F1A720D0B811003F7AE1 /* HZScreenRotationDemo.xcdatamodeld in Sources */,
+				03C7F1AF20D0B811003F7AE1 /* main.m in Sources */,
+				03C7F1D920D0BAB4003F7AE1 /* HZContentViewController.m in Sources */,
+				03C7F19E20D0B811003F7AE1 /* AppDelegate.m in Sources */,
+				03C7F1E220D0C872003F7AE1 /* HZNavigationController.m in Sources */,
+				03C7F1DC20D0C54F003F7AE1 /* HZHomeViewController.m in Sources */,
+				03C7F1DF20D0C82E003F7AE1 /* HZRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C7F1B020D0B811003F7AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C7F1B920D0B811003F7AE1 /* HZScreenRotationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C7F1BB20D0B811003F7AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C7F1C420D0B811003F7AE1 /* HZScreenRotationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C7F1B620D0B811003F7AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C7F19820D0B811003F7AE1 /* HZScreenRotationDemo */;
+			targetProxy = 03C7F1B520D0B811003F7AE1 /* PBXContainerItemProxy */;
+		};
+		03C7F1C120D0B811003F7AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C7F19820D0B811003F7AE1 /* HZScreenRotationDemo */;
+			targetProxy = 03C7F1C020D0B811003F7AE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C7F1A220D0B811003F7AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C7F1A320D0B811003F7AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C7F1AA20D0B811003F7AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C7F1AB20D0B811003F7AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C7F1C620D0B811003F7AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03C7F1C720D0B811003F7AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C7F1C920D0B811003F7AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZScreenRotationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZScreenRotationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03C7F1CA20D0B811003F7AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZScreenRotationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZScreenRotationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03C7F1CC20D0B811003F7AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZScreenRotationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZScreenRotationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZScreenRotationDemo.app/HZScreenRotationDemo";
+			};
+			name = Debug;
+		};
+		03C7F1CD20D0B811003F7AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZScreenRotationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZScreenRotationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZScreenRotationDemo.app/HZScreenRotationDemo";
+			};
+			name = Release;
+		};
+		03C7F1CF20D0B811003F7AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZScreenRotationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZScreenRotationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZScreenRotationDemo;
+			};
+			name = Debug;
+		};
+		03C7F1D020D0B811003F7AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZScreenRotationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZScreenRotationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZScreenRotationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C7F19420D0B811003F7AE1 /* Build configuration list for PBXProject "HZScreenRotationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C7F1C620D0B811003F7AE1 /* Debug */,
+				03C7F1C720D0B811003F7AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C7F1C820D0B811003F7AE1 /* Build configuration list for PBXNativeTarget "HZScreenRotationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C7F1C920D0B811003F7AE1 /* Debug */,
+				03C7F1CA20D0B811003F7AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C7F1CB20D0B811003F7AE1 /* Build configuration list for PBXNativeTarget "HZScreenRotationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C7F1CC20D0B811003F7AE1 /* Debug */,
+				03C7F1CD20D0B811003F7AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C7F1CE20D0B811003F7AE1 /* Build configuration list for PBXNativeTarget "HZScreenRotationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C7F1CF20D0B811003F7AE1 /* Debug */,
+				03C7F1D020D0B811003F7AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03C7F1A520D0B811003F7AE1 /* HZScreenRotationDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03C7F1A620D0B811003F7AE1 /* HZScreenRotationDemo.xcdatamodel */,
+			);
+			currentVersion = 03C7F1A620D0B811003F7AE1 /* HZScreenRotationDemo.xcdatamodel */;
+			path = HZScreenRotationDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03C7F19120D0B811003F7AE1 /* Project object */;
+}
